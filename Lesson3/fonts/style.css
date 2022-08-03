@@ -1,0 +1,18 @@
+*{
+    font-family: 'Ubuntu';
+
+}
+
+
+.block {
+    display: block;
+    width: 170px;
+    height: 59px;
+    background-color:  #FF5C00;
+  }
+
+.content{
+    padding: 5%;
+    font-family: 'Ubuntu';
+}
+

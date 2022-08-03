@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Square_Peg';
+    src: url(square_peg/fonts/webfonts/SquarePeg-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'Square_Peg';
+    src: url(square_peg/fonts/otf/SquarePeg-Regular.otf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Square_Peg';
+    src: url(square_peg/fonts/ttf/SquarePeg-Regular.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url(cormorant-sc/CormorantSC-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url(cormorant-sc/CormorantSC-Bold.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url(cormorant-sc/CormorantSC-Bold.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url(cormorant-sc/CormorantSC-Medium.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url(cormorant-sc/CormorantSC-Regular.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url(cormorant-sc/CormorantSC-SemiBold.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'cyber';
+    src: url(Cyberpunk/Cyberpunk-Regular.ttf);
+    font-weight: 400;
+}
+
+
+
+.wrapper{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1{
+    font-family: 'Cormorant SC';
+    font-size: 12em;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Square_Peg';
+}
+h6{
+    font-size: 2em;
+}
+
+h5{
+    font-size: 4em;
+}
+h4{
+    font-size: 6em;
+}
+
+h3{
+    font-size: 8em;
+}
+h2{
+    font-size: 10em;
+}
+p{
+    font-family: 'cyber', cursive;
+}
