@@ -1,0 +1,11 @@
+{
+    "name": "Mana Pica",
+    "short_name": " ManaPica",
+    "start_url":"/index.html",
+    "display":"standalone",
+    "background_color": "#FFE9D2",
+    "theme_color": "#FF11D2",
+    "orientation": "portrait-primary",
+    "icons": 
+
+}
