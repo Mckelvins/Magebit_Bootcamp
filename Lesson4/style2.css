@@ -1,0 +1,103 @@
+.top_nav{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.top_nav_facebook{
+    display: flex;   
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(0deg, #0062E0 2.92%, #19AFFF 100%);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.top_nav_facebook_vector_f{
+    width: 35px;
+    height: 30px;
+}
+
+
+.top_nav_icons{
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input[type=text] {
+    width: 281px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background: #F1F2F5;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+  cursor: pointer;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    border-radius: 100px;
+    margin-left: 1%;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+
+.top_nav_profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #080808;
+    margin-right: 10px;
+}
+
+.top_nav_profile_circle{
+    background:black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 0 10px
+}
+
+
+
+.top_nav_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_nav_right_circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #E5E6EB;
+    margin: 0 5px 0 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.top_nav_right_circle_icons{
+
+    fill: #66676B;
+    width: 18px;
+    height: 18px;
+}
+   
