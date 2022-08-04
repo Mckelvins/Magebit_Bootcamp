@@ -102,23 +102,48 @@
     line-height: 18px;
 }
 
+.middle{
+    display: flex;
+    justify-content: center;
+}
 .content{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    padding:auto;
     &__image{
+        margin: auto;
         width: 900px;
         height: 360px;
         background: url(img/space_ring_2-wallpaper-1440x900.jpg);
+    }
+    &__user{
+        margin-left: 10px ;
+        display: flex;
+        flex-direction: row;
     }
     &__profile{
         width: 132px;
         height: 132px;
         border-radius: 50%;
         background: url(img/space_ring_2-wallpaper-1440x900.jpg);
-   
     }
+    &__name{
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #080808;
+        &__industry{
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 20px;
+        }
+    }
+    
 }
+
 
 
 
