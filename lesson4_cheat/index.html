@@ -8,15 +8,22 @@
   <title>Day_4</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <section class="top-nav">
         <div class="top_nav__facebook">
             <img src="img/Vector_face_f.svg" alt="facebook" class="top_nav__vector">
         </div>
+ 
          <!-- input-->
          <input placeholder="Search Facebook" type="text" class="search" id="lname" name="search">
-                <!--hamburger menu-->
+         <div class="top_nav__name" id="hidden_profile">
+            <div class="top_nav__circle1"></div>
+            Sūklis Bobs
+        </div>    
+         
+         <!--hamburger menu-->
                 <input id="menu-toggle" type="checkbox" />
                 <label class='menu-button-container' for="menu-toggle">
                 <div class='menu-button'></div>
@@ -39,14 +46,11 @@
                 <img src="img/Vector_puzle.svg" alt="puzle" class="top_nav__iconlist__icons">
             </li>
             <li>
-                <div class="top_nav__circle1"></div>
+                
+                <div class="top_nav__name">
+                    <div class="top_nav__circle1"></div>
                     Sūklis Bobs
-            </li>
-        </ul>
-        <!-- profile--> 
-
-
-        <ul class="menu">
+                </div> 
             <li>    
                 <div class="top_nav__right__circle">
                     <img src="img/icons8-plus.svg"  class="top_nav__right__icon">
@@ -71,7 +75,11 @@
 
       </section>
     
-     
+     <section class="midlle">
+        <div class="midlle__picture">
+            
+        </div>
+     </section>
 
 </body>
 </html>

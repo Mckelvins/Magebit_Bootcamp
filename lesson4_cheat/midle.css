@@ -1,0 +1,10 @@
+.midlle{
+    display: flex;
+    justify-content: center;
+}
+.midlle__picture{
+    background: black;
+    width: 900px;
+    height: 360px;
+    background: url(img/space_ring_2-wallpaper-1440x900.jpg);
+}
