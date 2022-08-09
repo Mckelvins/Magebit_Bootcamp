@@ -1,0 +1,128 @@
+.posts {
+  background-color: #F0F2F5;
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  border-radius: 3%;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.post__heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.post__profile {
+  display: flex;
+  justify-content: flex-start;
+}
+.post__profile__picture {
+  height: 50px;
+  width: 50px;
+  background-image: url("img/posts/mon.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.post__profile__content {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.post__profile__name {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: px;
+  line-height: 20px;
+  color: #080808;
+}
+.post__profile__date {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.025em;
+  color: #66676B;
+}
+.post__option {
+  font-weight: 400;
+  font-size: 25px;
+  color: #66676B;
+  margin-top: 15px;
+}
+.post__text {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #080808;
+  text-align: left;
+  margin: 0 15px 6px 15px;
+}
+.post__gallery img {
+  height: 280px;
+  width: 100%;
+}
+.post__reactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 20px 0 20px;
+}
+.post__reactions__emoji {
+  display: flex;
+  flex-direction: row;
+}
+.post__reactions__names, .post__reactions__comments {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #66676B;
+  margin-left: 10px;
+}
+.post__line {
+  width: 480px;
+  background: #CFD0D4;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.post__share {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.post__share__svg {
+  height: 16px;
+  width: 16px;
+  margin: 5px;
+}
+.post__share__like, .post__share__comment, .post__share__share {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.post__most_revelant {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #66676B;
+  margin-right: 20px;
+}/*# sourceMappingURL=posts.css.map */
