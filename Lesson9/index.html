@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson_9</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="posts.css" />
+
+
+</head>
+
+
+<body   style="margin:0;">
+
+<!--top navigation----------------------------------------------------------->
+<section class="top-nav">
+            <div class="top_nav__facebook">
+                <img src="img/Vector_face_f.svg" alt="facebook" class="top_nav__vector">
+            </div>
+             <!-- input-->
+             <input placeholder="Search Facebook" type="text" class="search" id="lname" name="search">
+                    <!--hamburger menu-->
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+
+                                           <!-- profile--> 
+                    <div class="menu__profile_min" >
+                        <div class="menu__circle1_min"></div>
+                        Sūklis Bobs
+                    </div>
+    
+          </label>
+            <ul class="menu">
+                <li>
+                    <img src="img/Vector_home.svg" alt="home" class="top_nav__iconlist__icons">
+                </li>
+                <li>
+                    <img src="img/Vector_you.svg" alt="youtube" class="top_nav__iconlist__icons">
+                </li>
+                 <li>
+                    <img src="img/Vector_market.svg" alt="market" class="top_nav__iconlist__icons">
+                </li>
+                <li> 
+                    <img src="img/Vector_social.svg" alt="social" class="top_nav__iconlist__icons">
+                </li>
+                 <li> 
+                    <img src="img/Vector_puzle.svg" alt="puzle" class="top_nav__iconlist__icons">
+                </li>
+                <li>
+                       <!-- profile--> 
+                    <div class="menu__profile">
+                        <div class="menu__circle1"></div>
+                        Sūklis Bobs
+                    </div>
+                </li>
+                <li>    
+                    <div class="top_nav__right__circle">
+                        <img src="img/icons8-plus.svg"  class="top_nav__right__icon">
+                    </div>
+                </li>
+                <li>    
+                    <div class="top_nav__right__circle">
+                        <img src="img/Vector_messenger2.svg"  class="top_nav__right__icon">
+                    </div>
+                </li>
+                <li>    
+                    <div class="top_nav__right__circle">
+                        <img src="img/Vectorbell.svg"  class="top_nav__right__icon">
+                    </div>
+                </li>
+                <li>    
+                    <div class="top_nav__right__circle">
+                        <img src="img/Polygon 1down.svg"  class="top_nav__right__icon">
+                    </div>
+                </li>
+              </ul>
+            
+    
+</section>
+<!--posts----------------------------------------------------------->
+
+<section class="posts" >
+        <div class="post" style="display: none" id="post-visible">
+            <div class="post__heading">
+                
+                    <div class="post__profile">
+                        <div class="post__profile__picture">           
+                        </div>
+                        <div class="post__profile__content">
+                            <div class="post__profile__name">
+                                Profile Name
+                            </div>
+                            <div class="post__profile__date">
+                                Yesterday at 14:03
+                                <img src="img/posts/shape_world.png"  class="posts__profile__svg">
+                            </div>
+                        </div>
+      
+                    </div>
+                <div class="post__option">
+                    ...
+                </div>
+  
+            </div>
+            <div class="post__text">
+            </div>
+            <div class="post__gallery">
+                
+            </div>
+            <div class="post__reactions">
+                <div class="post__reactions__emoji">
+                    &#128515;
+                    &#128515;
+                    &#128515;
+                    &#128525;
+                    <div class="post__reactions__names">
+                        Peter Grifin and others
+                    </div>
+                </div>
+ 
+                <div class="post__reactions__comments">
+                    1 comments 1 share
+                </div>
+            </div>
+            <hr class="post__line">
+            <div class="post__share">
+                <div class="post__share__like">
+                    <img src="img/posts/Hot Like_like.svg"  class="post__share__svg">
+                     Like
+                </div>
+                <div class="post__share__comment">
+                    <img src="img/posts/Path 2_comment.svg"  class="post__share__svg">
+                    Comment
+                 </div>
+                <div class="post__share__share">
+                    <img src="img/posts/Hot Like_like.svg"  class="post__share__svg">
+                    Share
+                </div>
+            </div>
+            <hr class="post__line">
+            <div class="post__most_revelant">
+                Most revelant
+            </div>
+            <div class="post__makecomment">
+                <div class="post__makecomment__profile">
+                    
+                </div>
+                <div class="post__makecomment__input">
+                    <input type="text" class="post__makecomment__comment" placeholder="Write a comment...">
+                </div>
+            </div>
+            <div class="post__view_comment">
+                View 1 comment
+            </div>
+
+        </div>
+
+<!--1rst sceleton--------------------->
+<div class="post-inv" id="post-invisible">
+    <div class="post-inv__heading-inv">
+        <div class="post-inv__profileinv">
+        </div>
+    </div>
+    <div class="post-inv__gallery">      
+    </div>
+    <div class="post-inv__reactions">
+    </div>  
+    <div class="post-inv__reactions__emoji">
+    </div>
+    <div class="post-inv__reactions__emoji">
+    </div>
+    <div class="post-inv__reactions__emoji">
+    </div>
+</div>
+<!-- secont post------->
+<div class="post" style="display: none" id="post2-visible">
+    <div class="post__heading">
+        
+            <div class="post__profile">
+                <div class="post__profile__picture">           
+                </div>
+                <div class="post__profile__content">
+                    <div class="post__profile__name">
+                        Profile Name
+                    </div>
+                    <div class="post__profile__date">
+                        Yesterday at 14:03
+                        <img src="img/posts/shape_world.png"  class="posts__profile__svg">
+                    </div>
+                </div>
+
+            </div>
+        <div class="post__option">
+            ...
+        </div>
+
+    </div>
+    <div class="post__text">
+    </div>
+    <div class="post__gallery">
+        
+    </div>
+    <div class="post__reactions">
+        <div class="post__reactions__emoji">
+            &#128515;
+            &#128515;
+            &#128515;
+            &#128525;
+            <div class="post__reactions__names">
+                Peter Grifin and others
+            </div>
+        </div>
+
+        <div class="post__reactions__comments">
+            1 comments 1 share
+        </div>
+    </div>
+    <hr class="post__line">
+    <div class="post__share">
+        <div class="post__share__like">
+            <img src="img/posts/Hot Like_like.svg"  class="post__share__svg">
+             Like
+        </div>
+        <div class="post__share__comment">
+            <img src="img/posts/Path 2_comment.svg"  class="post__share__svg">
+            Comment
+         </div>
+        <div class="post__share__share">
+            <img src="img/posts/Hot Like_like.svg"  class="post__share__svg">
+            Share
+        </div>
+    </div>
+    <hr class="post__line">
+    <div class="post__most_revelant">
+        Most revelant
+    </div>
+    <div class="post__makecomment">
+        <div class="post__makecomment__profile">
+            
+        </div>
+        <div class="post__makecomment__input">
+            <input type="text" class="post__makecomment__comment" placeholder="Write a comment...">
+        </div>
+    </div>
+    <div class="post__view_comment">
+        View 1 comment
+    </div>
+
+</div>
+
+<!--scleton-->
+        <div class="post-inv" id="post2-invisible">
+            <div class="post-inv__heading-inv">
+                <div class="post-inv__profileinv">
+                </div>
+            </div>
+
+            <div class="post-inv__gallery">
+                
+            </div>
+            <div class="post-inv__reactions">
+            </div>  
+            <div class="post-inv__reactions__emoji">
+            </div>
+            <div class="post-inv__reactions__emoji">
+            </div>
+            <div class="post-inv__reactions__emoji">
+            </div>
+        </div>
+</section> 
+<div class="end" id="ending"> 
+
+</div>
+<script src="api.js"></script>
+<script src="loader.js"></script>
+
+
+</body>
+</html>

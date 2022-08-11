@@ -1,20 +1,23 @@
-let masivs=[];
-window.onload =retrieve();
+var masivs=[];
+
+
    
 // add button------------------------
 
 document.getElementById("addinput").onsubmit = function(event){
     event.preventDefault();
     var input=document.getElementById('addin').value;
-     
+    retrieve();
     //vertibas validacija if not Null
-    if(input==''){
+    if(input===''){
         alert("Please Enter a Task")
     }
     else{
+        console.log(input);
+        
         //ievieto vetibu masiva
-        masivs.push(input);
-
+        masivs.push(document.getElementById('addin').value);
+        
         //ievieto "task" datus local storage
         var key = "ToDoList";
         window.localStorage.setItem(key,JSON.stringify(masivs));  
@@ -43,37 +46,16 @@ for(var i=0; i<delete_tasks.length; i++){
 
 }
 
-
 //retrieve  local data
 function retrieve(){
     const GetRecords=localStorage.getItem("ToDoList");
-    var AllRecords = JSON.parse(GetRecords);
-    document.getElementById("demo").innerHTML = GetRecords;
-    if(
-        GetRecords!=0){
-        masivs=AllRecords;
+    if(GetRecords!=0){
+        var AllRecords = JSON.parse(GetRecords);
+        document.getElementById("demo").innerHTML = GetRecords;
+        console.log("recors retrieved: "+ AllRecords)
     }
-    
-    console.log("recors retrieved: "+ AllRecords)
-
-    //make list of records-------------
-    if(!AllRecords==''){
-    for(x=0; x< AllRecords.length; ++x){
-        document.getElementById('tasks').innerHTML +=`
-        <div class="task">
-            <div id="taskname">
-                ${AllRecords[x]}
-            </div>
-            <button class="delete">
-            X
-            </button>
-         </div>     
-    `;
-    }
-}
-}
-
-
-function DisplayTask(){
 
 }
+
+
+
