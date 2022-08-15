@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../var/www/web"
+		},
+		{
+			"path": "Lesson11_1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web"
+	}
+}
