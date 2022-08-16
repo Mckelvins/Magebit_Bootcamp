@@ -1,30 +1,27 @@
+addtodolist();
 
-
-  function addtodolist(event){
+function addtodolist(){
+    //get json data from store.php
     
-    
-    event.preventDefault();
-    fetch("store.php")
+    fetch("get.php")
     .then((response) => response.json())
     .then((json) => {
       
-      masivs=json;
-      console.log("sis ir masivs"+masivs);
-      generate();
-
-    
-    })
+        masivs=json;
+        console.log("sis ir masivs"+masivs);
+        console.log("sis ir masiva garums"+Object.keys(masivs).length);
+        
+        if(Object.keys(masivs).length>1){
+        //generate list from array
+        generate();
+        }
+})
     ;
-
-    
-    console.log("get back data");
-    console.log(masivs);
-    
   }
-
+//function to generate list from array
   function generate(){
     
-    for (i=0; i<masivs.lenght;i++){
+    for (i=0; i<Object.keys(masivs).length;i++){
       // izveido "task" sarakstu ar vertibu
       document.getElementById('tasks').innerHTML +=`
       <div class="task">
@@ -38,3 +35,4 @@
   `;
    }
   }
+
