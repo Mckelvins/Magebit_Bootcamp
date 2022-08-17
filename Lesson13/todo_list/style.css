@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 400px;
+  margin: 100px auto;
+}
+
+.tood_list__item {
+  padding: 4px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+.tood_list__item .text {
+  display: inline-block;
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.211);
+}
+.tood_list__item .delete {
+  display: inline-block;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.template {
+  display: none !important;
+}/*# sourceMappingURL=style.css.map */
